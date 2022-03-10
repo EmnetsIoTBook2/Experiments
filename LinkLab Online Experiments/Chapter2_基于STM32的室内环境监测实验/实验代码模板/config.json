@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "usage": "queue",
+    "hexFileDir": "hexFiles",
+    "serverType": "stm32f103ve",
+    "projects": [{
+        "projectName": "temp",
+        "compileType": "keil5",
+        "boardType": "stm32f103ve",
+        "burnType": "queue",
+        "program": {
+            "model": "stm32f103ve",
+            "runtime": 30,
+            "address": "0x10000"
+        }
+    }]
+}
