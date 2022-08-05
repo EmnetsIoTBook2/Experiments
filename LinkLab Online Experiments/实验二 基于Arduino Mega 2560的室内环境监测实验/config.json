@@ -1,0 +1,17 @@
+ {
+	"version": "1.0.0",
+	"usage": "queue",
+	"hexFileDir": "hexFiles",
+	"serverType": "tinylink_platform_1",
+	"projects": [{
+		"projectName": "main",
+		"compileType": "arduino",
+		"boardType": "arduino:avr:mega:cpu=atmega2560", 
+		"burnType": "queue",
+		"program": {
+			"model": "tinylink_platform_1",
+			"runtime": 300,
+			"address": "0x10000"
+			}
+	}]
+}

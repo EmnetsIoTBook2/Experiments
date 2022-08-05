@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "usage": "queue",
+    "hexFileDir": "hexFiles",
+    "serverType": "STM32F103C8",
+    "projects": [
+        {
+            "projectName": "4g-EC200T",
+            "compileType": "stm32-std",
+            "boardType": "STM32F103C8",
+            "burnType": "queue",
+            "program": {
+                "model": "SmartVilla",
+                "runtime": 60,
+                "address": "0"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: lightsensor
+spec:
+  containers:
+  - name: virtual-lightsensor
+    image: virtual-lightsensor
+    imagePullPolicy: Always
+  - name: mqtt
+    image: eclipse-mosquitto
+    imagePullPolicy: Always
+    env:
+    - name: USE_PUB_REGISTRY
+      value: "true"

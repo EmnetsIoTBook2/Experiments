@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "usage": "queue",
+    "hexFileDir": "hexFiles",
+    "serverType": "nRF52840",
+    "projects": [
+        {
+            "projectName": "II_udp_server",
+            "compileType": "riot-zigbee",
+            "boardType": "nrf52840dk",
+            "burnType": "queue",
+            "program": {
+                "model": "nRF52840",
+                "runtime": 30,
+                "address": "0"
+            }
+        }
+    ]
+}

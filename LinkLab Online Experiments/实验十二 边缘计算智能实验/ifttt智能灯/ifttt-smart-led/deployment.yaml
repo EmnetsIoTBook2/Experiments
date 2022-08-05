@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ifttt-smart-led
+spec:
+  containers:
+  - name: virtual-led
+    image: virtual-led
+    imagePullPolicy: Always
+  - name: virtual-lightsensor
+    image: virtual-lightsensor
+    imagePullPolicy: Always
+  - name: ifttt
+    image: ifttt
+    imagePullPolicy: Always
+  - name: mqtt
+    image: eclipse-mosquitto
+    imagePullPolicy: Always
+    env:
+    - name: USE_PUB_REGISTRY
+      value: "true"

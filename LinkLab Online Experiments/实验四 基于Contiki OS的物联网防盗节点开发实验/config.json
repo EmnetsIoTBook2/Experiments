@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "usage": "queue",
+    "hexFileDir": "hexFiles",
+    "serverType": "TelosB",
+    "projects": [
+        {
+            "projectName": "anti-theft",
+            "compileType": "contiki-ng-virtual",
+            "boardType": "sky",
+            "burnType": "queue",
+            "program": {
+                    "model": "TelosB",
+                    "runtime": 60,
+                    "address": "0x10000"
+            }
+        }
+    ]
+}

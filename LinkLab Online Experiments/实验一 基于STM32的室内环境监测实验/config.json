@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "usage": "queue",
+    "hexFileDir": "hexFiles",
+    "serverType": "STM32F103C8",
+    "projects": [
+        {
+            "projectName": "DHT11",
+            "compileType": "stm32-std",
+            "boardType": "STM32F103C8",
+            "burnType": "queue",
+            "program": {
+                "model": "STM32F103C8",
+                "runtime": 20,
+                "address": "0"
+            }
+        }
+    ]
+}
